@@ -15,14 +15,18 @@ layout: default
       {%- for post in site.posts -%}
       <li>
         {%- assign date_format = site.minima.date_format | default: "%b %-d, %Y" -%}
-        <span class="post-meta">{{ post.date | date: date_format }}</span>
+        <span class="post-meta">{{ post.date | date: date_format }}</span> 
+        <!-- &bull; 
+        <a href="{{ post.url | relative_url }}#disqus_thread" data-disqus-identifier="{{ post.url | relative_url }}">
+          Post a comment
+        </a> -->
         <h3>
           <a class="post-link" href="{{ post.url | relative_url }}">
             {{ post.title | escape }}
           </a>
         </h3>
         {%- if post.excerpt -%}
-          {{ post.excerpt }}
+          <p>{{ post.excerpt }}</p>
         {%- endif -%}
       </li>
       {%- endfor -%}
