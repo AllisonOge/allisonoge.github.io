@@ -28,9 +28,16 @@ twitter_username: iamallisonkanu
 github_username:  allisonOge
 
 # Build settings
+markdown: kramdown
 theme: minima
 plugins:
   - jekyll-feed
+
+# Disqus comments
+disqus:
+  # Leave shortname blank to disable comments site-wide.
+  # Disable comments for any post by adding `comments: false` to that post's YAML Front Matter.
+  shortname: https-allisonoge-github-io.disqus.com/admin 
 
 # Exclude from processing.
 # The following items will not be processed, by default.
