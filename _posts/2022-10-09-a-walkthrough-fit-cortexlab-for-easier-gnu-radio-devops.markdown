@@ -15,11 +15,11 @@ If you have struggled to setup your GNU Radio environment for a software-defined
 
 Let's begin by heading off to the the toolchain build [repo][clb-toolchain]{:target="_blank"}. It has a bash script that builds GNU Radio and all its dependencies as well as some OOT modules. We are one step closer to easing up the development setup but where does docker come in? Great question. Obviously, the bash script was built for a particular operating system and if you have noticed the debian system (sorry Windows users). So, docker makes it possible to run containers within any operating system that supports docker which are Windows, MacOS and Linux (hey Windows guys I have gat you). These containers can run debian docker images, so, provided we have a dockerfile that runs this bash script in a debian docker image, we can have our GNU Radio application running in docker on our local machine. Therefore, let's go through the steps, are you ready?
 
-First, install docker in your local machine. To do that, head off to [this site][docker-install]{:target="_blank"}. If you prefer, you can install the desktop version. So, now that docker is up and ready let's get the debian docker image that builds GNU Radio. If you have used GNU Radio for a while then you know there are two versions of the software with major changes from each other, gnuradio-3.7 and otherwise. CorteXlab docker images also takes that into consideration. The list of docker images with GNU Radio versions they support can be found [here][clb-images]{:target="_blank"}. In this blog, I will walk through the steps discussed using a Linux OS (Ubuntu 18.04 LTS) with WSL 2. So, the same steps can be taken for other operating systems but would require some added research on your part. 
+First, install docker in your local machine. To do that, head off to [this site][docker-install]{:target="_blank"}. If you prefer, you can install the desktop version. So, now that docker is up and ready let's get the debian docker image that builds GNU Radio. If you have used GNU Radio for a while then you know there are two versions of the software with major changes from each other, gnuradio-3.7 and otherwise. CorteXlab docker images also takes that into consideration. The list of docker images with GNU Radio versions they support can be found [here][clb-images]{:target="_blank"}. In this blog, I will walk through the steps discussed using a Linux OS (Ubuntu 18.04 LTS). So, the same steps can be taken for other operating systems but would require some added research on your part. 
 
 In a terminal, we would run the following command to pull the docker image of any choice. In this case, I chose the [`m1mbert/cxlb-gnuradio-3.10:1.1`][clb-hub]{:target="_blank"} image for gnuradio-3.10.
 
-{% highlight bash %}
+{% highlight shell %}
 docker pull m1mbert/cxlb-gnuradio-3.10:1.1
 {% endhighlight %}
 
@@ -27,16 +27,30 @@ docker pull m1mbert/cxlb-gnuradio-3.10:1.1
   <img src="/images/docker-pull.png" alt="docker pull console">
   <figcation>Console for <em>docker pull m1mbert/cxlb-gnuradio-3.10:1.1</em> command</figcation>
 </figure>
+<figure style="text-align:center">
+  <img src="/images/verify-successful-pull.png" alt="docker pull console">
+  <figcation>Verify successfull image pull with <em>docker images</em> command</figcation>
+</figure>
 
 Next, we run the image with the command:
 
-{% highlight bash %}
-docker run -dit --net=host --expose 2222 --privileged
+{% highlight shell %}
+docker run -dit --net=host --expose 2222 --privileged m1mbert/cxlb-gnuradio-3.10:1.1
 {% endhighlight %}
+
+<figure style="text-align:center">
+  <img src="/images/run-docker-instance.png" alt="docker pull console">
+  <figcation>Console for <em>docker run -dit --net=host --expose 2222 --privileged m1mbert/cxlb-gnuradio-3.10:1.1</em> command</figcation>
+</figure>
+<figure style="text-align:center">
+  <img src="/images/verify-successful-run.png" alt="docker pull console">
+  <figcation>Verify successful docker instance run with <em>docker ps</em> command</figcation>
+</figure>
+
 
 The command runs an interactive container that is open to the host network at port 2222. With the container running (you can verify with this command `docker ps`), we can connect to the container with ssh using the command:
 
-{% highlight bash %}
+{% highlight shell %}
 ssh -Xp 2222 root@localhost
 {% endhighlight %}
 
