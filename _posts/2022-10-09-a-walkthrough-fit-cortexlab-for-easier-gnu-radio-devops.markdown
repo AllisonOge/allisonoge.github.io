@@ -4,6 +4,7 @@ comments: true
 title:  "A walkthrough FIT/CorteXlab for easier GNU Radio devOps"
 excerpt: Explore a new open-source application that eases GNU Radio development with docker
 date:   2022-10-09 07:26:24 +0100
+updated:   2022-10-14 10:51:24 +0100
 categories: devOps
 ---
 <figure style="text-align:center">
@@ -28,7 +29,7 @@ docker pull m1mbert/cxlb-gnuradio-3.10:1.1
   <figcation>Console for <em>docker pull m1mbert/cxlb-gnuradio-3.10:1.1</em> command</figcation>
 </figure>
 <figure style="text-align:center">
-  <img src="/images/verify-successful-pull.png" alt="docker pull console">
+  <img src="/images/verify-successful-pull.png" alt="docker images console">
   <figcation>Verify successfull image pull with <em>docker images</em> command</figcation>
 </figure>
 
@@ -39,11 +40,11 @@ docker run -dit --net=host --expose 2222 --privileged m1mbert/cxlb-gnuradio-3.10
 {% endhighlight %}
 
 <figure style="text-align:center">
-  <img src="/images/run-docker-instance.png" alt="docker pull console">
+  <img src="/images/run-docker-instance.png" alt="docker run console">
   <figcation>Console for <em>docker run -dit --net=host --expose 2222 --privileged m1mbert/cxlb-gnuradio-3.10:1.1</em> command</figcation>
 </figure>
 <figure style="text-align:center">
-  <img src="/images/verify-successful-run.png" alt="docker pull console">
+  <img src="/images/verify-successful-run.png" alt="docker ps console">
   <figcation>Verify successful docker instance run with <em>docker ps</em> command</figcation>
 </figure>
 
@@ -58,7 +59,43 @@ If all goes as planned then you should be in the running container with gnuradio
 
 **Next Steps**
 
-There are a few heads up you should be aware of, so I would bring you up to speed in that regard. You might wonder how would one run GUI applications in GNU Radio? That is truely a genuine concern. Recall earlier that I mentioned that the CorteXlab build toolchain (bash script) installs some OOT modules. Well, now is the time to discuss them. An important module which addresses the ability to run GUI applications is called the [Bokeh GUI][gr-bokeh]{:target="_blank"}. It is written by [Kartik Patel][kartik1995]{:target="_blank"}. The module allows a user to access the GUI widgets and sinks in a remote computer through a network. If you are thinking we will access the GUI plot of our running GNU radio program through the browser then you have guessed it right :wink:. As promised, I will show an example of Bokeh GUI in action in this post. 
+There are a few heads up you should be aware of, so I would bring you up to speed in that regard. You might wonder how would one run GUI applications in GNU Radio? That is truely a genuine concern. Recall earlier that I mentioned that the CorteXlab build toolchain (bash script) installs some OOT modules. Well, now is the time to discuss them. An important module which addresses the ability to run GUI applications is called the [Bokeh GUI][gr-bokeh]{:target="_blank"}. It is written by [Kartik Patel][kartik1995]{:target="_blank"}. The module allows a user to access the GUI widgets and sinks in a remote computer through a network. If you are thinking we will access the GUI plot of our running GNU radio program through the browser then you have guessed it right	&#128521;. As promised, I will show an example of Bokeh GUI in action in this post.
+
+For a test, the following flow graph should suffice. It is the simulation of a signal source using BokehGUI time sink and waterfall plot.
+<figure style="text-align:center">
+  <img src="/images/grc-flowgraph.png" alt="bokehgui test">
+  <figcation>Simple simulation flow graph to demonstrate BokehGUI in action</figcation>
+</figure>
+
+In the docker container, run the following commands to clone the repository and run the flow graph.
+
+```shell
+ git clone https://github.com/AllisonOge/bokehgui-test.git
+ cd bokehgui-test/
+ gnuradio-companion test_bokehgui.grc
+```
+
+At this point, you should see the flow graph and be able to execute it. However, there is just one more step if we want to access the port through the browser on our local machine. We need to forward the port in the container to that of our local machine. So, close the ssh by exiting the command line with `exit` command in the console or a combination of the keys `CTRL`+`D` in a Windows machine (macOS guys would have to figure out this one).
+
+Now run the following command to make that connection (called [port forwarding](https://phoenixnap.com/kb/ssh-port-forwarding){:target="_blank"}) with the container. It is an adjustment to the previous ssh command I have shown.
+
+```shell
+ssh -Xp 2222 -L localhost:5006:localhost:5006 root@localhost
+```
+
+<figure style="text-align:center">
+  <img src="/images/bridging-ports-for-bokehgui.png" alt="port forwarding">
+  <figcation>Port forwarding in ssh command to allow network access</figcation>
+</figure>
+
+Now run the flow graph again and access the port shown in the console of the gnuradio program and voila! Your result should look so much like this.
+
+<figure style="text-align:center">
+  <img src="/images/bokeh-gui-browser.png" alt="bokehgui in action">
+  <figcation>Bokeh GUI in action at port 5007</figcation>
+</figure>
+
+This brings us to the end of this post. I hope it was insightful. Do engage with the post and share your thoughts in the comment section and I would be glad to respond. This will sound as a strong encouragement to make other relevant posts. Have a wonderful rest of the day! Au revior &#128075;.
 
 [fit-main]: http://www.cortexlab.fr/
 [clb-docs]: https://wiki.cortexlab.fr/doku.php
