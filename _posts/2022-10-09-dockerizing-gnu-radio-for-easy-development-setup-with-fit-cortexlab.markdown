@@ -9,7 +9,7 @@ categories: devOps
 ---
 <figure style="text-align:center">
   <img src="/images/clb-for-devops.png" alt="devops with gnuradio and docker">
-  <figcation>Dockerizing GNU Radio</figcation>
+  <figcation>Dockering GNU Radio</figcation>
 </figure>
 
 Setting up a GNU Radio environment for a software-defined radio project can be a challenging task, with various dependencies and compatibility issues across different operating systems. However, there's a solution to simplify this process with FIT/CorteX lab. In this blog post, we'll explore FIT/CorteX lab, an open-source platform that addresses the issues of reproducibility and provides an easy way to have a GNU Radio environment up and running for development. By leveraging Docker, we can achieve the dream of dockerizing GNU Radio and enjoy the additional benefits of FIT/CorteXlab. So, let's dive in and learn how to leverage this free and powerful platform.
