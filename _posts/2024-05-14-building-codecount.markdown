@@ -49,7 +49,7 @@ I feel the CodeCount project reaffirmed my thoughts on my problem-solving skills
 
 Thankfully, the CodeCount project has informed me greatly of my potential as a software engineer and what specialisation I would like to pursue (being backend). This also informs me of my future endeavours as a software engineer. Seeing the inclination to handle more data-based logic also aligns with my other aspirations such as research scientist and machine learning engineer roles.
 
->_P.S. Knowing how to use Vim/Emacs or any other terminal-based editor is handy when dealing with remote access (since most remote servers are Linux-based) n but I like to avoid the stress of figuring out how to make multiple changes at the same time or commenting code shortcuts and just use VSCode so although ALX advocates for Vim/Emacs, I am a strong VSCode fan (Sorry 😖)_.
+>_P.S. Knowing how to use Vim/Emacs or any other terminal-based editor is handy when dealing with remote access (since most remote servers are Linux-based) but I like to avoid the stress of figuring out how to make multiple changes at the same time or commenting code shortcuts and just use VSCode so although ALX advocates for Vim/Emacs, I am a strong VSCode fan (Sorry 😖)_.
 
 In conclusion, taking part in the CodeCount project exposed me to modern technologies, gave me an avenue to try out my problem-solving skills and display my creativity. I feel a step closer to my software engineering goal.
 
