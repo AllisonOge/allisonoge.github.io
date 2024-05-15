@@ -3,8 +3,8 @@ layout: post
 comments: true
 title:  "Building CodeCount"
 excerpt: "A freelancer's friend for managing short-term tasks"
-date:   2024-05-14 11:29:19 -0700
-updated:  
+date:   2024-05-14 23:29:19 -0700
+updated:  2024-05-15 12:09:59 -0700
 categories: softwaredevelopment
 ---
 
