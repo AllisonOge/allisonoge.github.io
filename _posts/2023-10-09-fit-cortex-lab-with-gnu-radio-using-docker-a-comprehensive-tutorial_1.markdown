@@ -69,7 +69,7 @@ Now, let's dive deeper into what Fit Cortex Lab entails and the hardware it offe
 ## Fit Cortex Lab: A Closer Look
 
 <figure style="text-align:center">
-  <img src="/images/fit-cortexlab.jpg" alt="fit cortex lab image">
+  <img src="/assets/images/fit-cortexlab.jpg" alt="fit cortex lab image">
   <figcation>Fit Cortex Lab Image</figcation>
 </figure>
 
@@ -90,14 +90,14 @@ Fit Cortex Lab is a state-of-the-art experimentation facility designed for explo
 Here's a visual representation of how SDRs are distributed within the Fit Cortex Lab experimentation room:
 
 <figure style="text-align:center">
-  <img src="/images/sdr_distribution.png" alt="sdr distribution">
+  <img src="/assets/images/sdr_distribution.png" alt="sdr distribution">
   <figcation>SDR Distribution Image</figcation>
 </figure>
 
 As you can see, both USRPs (in gray) and Pico SDRs (in blue) are strategically positioned in the room, with antennas spaced at 180 centimeters apart for various experiments.
 
 <figure style="text-align:center">
-  <img src="/images/sdr_distribution_2.png" alt="sdr distribution">
+  <img src="/assets/images/sdr_distribution_2.png" alt="sdr distribution">
   <figcation>SDR Distribution showing distance between nodes</figcation>
 </figure>
 
@@ -269,7 +269,7 @@ In this step, we'll modify the flowgraph to replace unnecessary parts with a UHD
 3. Connect the "UHD Source" block to the "Schmidl and Cox" and "Delay" blocks as shown in the flowgraph.
 
 <figure style="text-align:center">
-  <img src="/images/rx_ofdm_flowgraph.png" alt="rx ofdm flowgraph">
+  <img src="/assets/images/rx_ofdm_flowgraph.png" alt="rx ofdm flowgraph">
   <figcation><code>rx_ofdm</code> flowgraph</figcation>
 </figure>
 

@@ -8,7 +8,7 @@ updated:   2023-06-24 05:11:24 +0100
 categories: devOps
 ---
 <figure style="text-align:center">
-  <img src="/images/clb-for-devops.png" alt="devops with gnuradio and docker">
+  <img src="/assets/images/clb-for-devops.png" alt="devops with gnuradio and docker">
   <figcation>Dockering GNU Radio</figcation>
 </figure>
 
@@ -30,11 +30,11 @@ docker pull m1mbert/cxlb-gnuradio-3.10:1.2
 {% endhighlight %}
 
 <figure style="text-align:center">
-  <img src="/images/docker-pull.png" alt="docker pull console">
+  <img src="/assets/images/docker-pull.png" alt="docker pull console">
   <figcation>Console for <em>docker pull m1mbert/cxlb-gnuradio-3.10:1.2</em> command</figcation>
 </figure>
 <figure style="text-align:center">
-  <img src="/images/verify-successful-pull.png" alt="docker images console">
+  <img src="/assets/images/verify-successful-pull.png" alt="docker images console">
   <figcation>Verify successfull image pull with <em>docker images</em> command</figcation>
 </figure>
 
@@ -48,11 +48,11 @@ docker run -dit --net=host --expose 2222 --privileged m1mbert/cxlb-gnuradio-3.10
 {% endhighlight %}
 
 <figure style="text-align:center">
-  <img src="/images/run-docker-instance.png" alt="docker run console">
+  <img src="/assets/images/run-docker-instance.png" alt="docker run console">
   <figcation>Console for <em>docker run -dit --net=host --expose 2222 --privileged m1mbert/cxlb-gnuradio-3.10:1.2</em> command</figcation>
 </figure>
 <figure style="text-align:center">
-  <img src="/images/verify-successful-run.png" alt="docker ps console">
+  <img src="/assets/images/verify-successful-run.png" alt="docker ps console">
   <figcation>Verify successful docker instance run with <em>docker ps</em> command</figcation>
 </figure>
 

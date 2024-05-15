@@ -5,7 +5,7 @@ title:  "Exploring Decision Boundaries in MLP"
 excerpt: "Let's investigate the learning process of multilayer perceptron model"
 date:   2024-05-12 09:25:30 -0700
 updated:  
-categories: deep_learning
+categories: deeplearning
 ---
 
 <figure style="text-align:center">
