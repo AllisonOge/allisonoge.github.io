@@ -9,7 +9,7 @@ categories: softwaredevelopment
 ---
 
 <figure style="text-align:center">
-  <img style="margin: 0 auto;" src="/assets/images/codecount-logo.webp" alt="count every project, every penny, every possibility" height=512>
+  <img style="margin: 0 auto; max-height: 512px;" src="/assets/images/codecount-logo.webp" alt="count every project, every penny, every possibility">
   <figcation>Count Every Project, Every Penny, Every Possibility [<a href="https://chat.openai.com/share/266e3e3f-ae9b-4a5d-9813-728b7301b968" target="_blank">image is AI generated</a>]</figcation>
 </figure>
 
