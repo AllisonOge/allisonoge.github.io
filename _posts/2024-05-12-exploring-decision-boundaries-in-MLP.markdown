@@ -9,7 +9,7 @@ categories: deeplearning
 ---
 
 <figure style="text-align:center">
-  <img src="/images/MLP-decision-boundary.gif" alt="exploring decision boundaries in mlp">
+  <img src="/assets/images/MLP-decision-boundary.gif" alt="exploring decision boundaries in mlp">
   <figcation>Decision Boundary in an MLP model</figcation>
 </figure>
 
