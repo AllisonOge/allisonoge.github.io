@@ -25,11 +25,11 @@ Here are my honourable mentions:
   
   <!-- We develop and train models on large unlabelled datasets across multiple tasks to learn latent invariant representations used across various wireless communication tasks at the front-end or PHY layer. Ultimately, I ask and answer the question 'Can a single model meet or outperform fully supervised models trained in a task-specific manner across multiple tasks both in-distribution and out-of-distribution with frozen embeddings?' and many other questions. -->
 
-  - **[qIQ2Seq_forecast](https://github.com/Qoherent-WAVESLAB/qIQ2Seq_forecast){:target="_blank"}** - Takes history of IQ samples and predicts a 2ms window in the future.
-
-  - **[qRadioMoCo](https://github.com/Qoherent-WAVESLAB/qRadioMoCo){:target="_blank"}** - Attempts to learns two in distribution tasks with self-supervised learning using MoCo framework.
+  - **[qRadioMoCo](https://github.com/Qoherent-WAVESLAB/qRadioMoCo){:target="_blank"}** - Attempts to learns two in distribution tasks with self-supervised learning using MoCo framework. More details can be found in the paper: *[Self-supervised Radio Representation Learning: Can we Learn Multiple Tasks?](http://arxiv.org/abs/2509.03077){:target="_blank"}*
 
   - **[qSeptroDetect](https://github.com/Qoherent-WAVESLAB/qSpectroDetect){:target="_blank"}** - Is a signal localization and classification model on both narrow and wideband spectrum given IQ samples.
+
+  - **[qIQ2Seq_forecast](https://github.com/Qoherent-WAVESLAB/qIQ2Seq_forecast){:target="_blank"}** - Takes history of IQ samples and predicts a 2ms window in the future.
 
 
 - ## Statistical Optimization problems
