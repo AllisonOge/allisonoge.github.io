@@ -1,200 +1,251 @@
 {
   "basics": {
-    "name": "Albert Einstein",
-    "label": "Scientist",
+    "name": "Ogechukwu Allison Kanu",
+    "label": "MSc Researcher — Machine Learning for Wireless/Signal Data",
     "image": "",
-    "email": "albert@einstein.de",
-    "phone": "(912) 123-4567",
-    "url": "https://alshedivat.github.io/al-folio/",
-    "summary": "A German-born theoretical physicist, widely ranked among the greatest and most influential scientists of all time",
+    "email": "ogechukwukanu@gmail.com",
+    "phone": "",
+    "url": "https://allisonoge.github.io",
+    "summary": "MSc researcher specializing in machine learning for wireless/signal data with hands-on experience designing, training, evaluating, and deploying ML pipelines. Proven record training and shipping PyTorch models, migrating/maintaining production-grade codebases, and collaborating across academia and industry. Strong software engineering foundation (Python, C/C++, JavaScript), experiment tracking, documentation, and code reviews—plus practical DevOps exposure (Docker, CI/CD scripting). Published at IEEE ICC 2025.",
     "location": {
-      "address": "2712 Broadway St",
-      "postalCode": "CA 94115",
-      "city": "San Francisco",
-      "countryCode": "US",
-      "region": "California"
+      "address": "",
+      "postalCode": "",
+      "city": "Calgary",
+      "countryCode": "CA",
+      "region": "Alberta"
     },
-    "profiles": [
-      {
-        "network": "Twitter",
-        "username": "AlbertEinstein",
-        "url": "https://twitter.com/AlbertEinstein"
-      }
-    ]
+    "profiles": []
   },
   "work": [
     {
-      "name": "Institute for Advanced Study, Princeton University",
-      "position": "Professor of Theoretical Physics",
-      "url": "https://example.com",
-      "startDate": "1933-01-01",
-      "endDate": "1955-01-01",
-      "summary": "Teaching at Palmer Physical Laboratory (now 302 Frist Campus Center). While not a professor at Princeton, I associated with the physics professors and continued to give lectures on campus.",
-      "highlights": ["Relativity"]
-    }
-  ],
-  "volunteer": [
+      "name": "Qoherent Inc.",
+      "position": "Mitacs Research Intern",
+      "url": "https://qoherent.ai/",
+      "startDate": "2024-01-01",
+      "endDate": "2024-12-01",
+      "summary": "Designed, trained, tested, and iterated I/Q→spectrogram forecasting and signal localization/classification models (narrow & wideband). Refactored the training stack from FastAI to PyTorch; improved maintainability and reviewability. Built a self-supervised multi-task learning pipeline that produced an IEEE ICC 2025 publication. Collaborated closely with the team, tracked experiments, communicated results, and optimized training/evaluation throughput.",
+      "highlights": [
+        "Refactored ML stack FastAI → PyTorch",
+        "Self-supervised multi-task pipeline (ICC 2025)",
+        "Throughput and accuracy optimization",
+        "Experiment tracking and reporting"
+      ]
+    },
     {
-      "organization": "People's Climate March",
-      "location": "Zurich, Switzerland",
-      "position": "Lead Organizer",
-      "url": "https://example.com",
-      "startDate": "2014-04-01",
-      "endDate": "2015-07-01",
-      "summary": "Lead organizer for the New York City branch of the People's Climate March, the largest climate march in history.",
-      "highlights": ["Awarded 'Climate Hero' award by Greenpeace for my efforts organizing the march.", "Men of the year 2014 by Time magazine"]
+      "name": "University of Calgary",
+      "position": "Graduate Research Assistant",
+      "url": "https://www.ucalgary.ca/",
+      "startDate": "2024-01-01",
+      "endDate": "",
+      "summary": "Researching mixed pretraining for self-supervised learning on I/Q samples for multi-task downstreams. Implemented scalable training/evaluation loops and ablations; maintained artifacts and documentation for reproducibility.",
+      "highlights": [
+        "Mixed pretraining for SSL on I/Q data",
+        "Scalable training/evaluation loops",
+        "Ablations and reproducibility artifacts"
+      ]
+    },
+    {
+      "name": "ALX Africa (IT Department)",
+      "position": "Software Engineer Intern",
+      "url": "https://www.alxafrica.com/",
+      "startDate": "2023-01-01",
+      "endDate": "2023-12-01",
+      "summary": "Built projects in C, Python, JavaScript; delivered full-stack web apps and REST APIs. Implemented DevOps pipelines with Puppet & Bash to streamline deployments. Practiced DSA and problem-solving for production readiness.",
+      "highlights": [
+        "Full-stack apps & REST APIs",
+        "Puppet/Bash deployment pipelines",
+        "DSA practice for production readiness"
+      ]
+    },
+    {
+      "name": "University of Benin",
+      "position": "Graduate Research Assistant",
+      "url": "https://www.uniben.edu/",
+      "startDate": "2020-01-01",
+      "endDate": "2021-08-01",
+      "summary": "Co-developed spectrum analyzer with SDRs; built intelligent wireless system models for optimal RF usage. Co-authored multiple academic journals; collaborated with faculty and student teams.",
+      "highlights": [
+        "Spectrum analyzer with SDRs",
+        "Intelligent wireless system models",
+        "Co-authored 4+ journals"
+      ]
+    },
+    {
+      "name": "University of Benin",
+      "position": "Student Researcher Intern",
+      "url": "https://www.uniben.edu/",
+      "startDate": "2018-06-01",
+      "endDate": "2018-11-01",
+      "summary": "Completed embedded systems projects (PIC). Built OpenBTS + USRP B210 cellular network prototype; FM TX/RX with HackRF One. Investigated wireless key-fob vulnerabilities via SDR; contributed to a DSP textbook; supported project reviews.",
+      "highlights": [
+        "OpenBTS + USRP B210 prototype",
+        "HackRF FM TX/RX",
+        "Embedded systems (PIC microcontrollers)"
+      ]
+    },
+    {
+      "name": "University of Calgary",
+      "position": "Graduate Teaching Assistant",
+      "url": "https://www.ucalgary.ca/",
+      "startDate": "2024-01-01",
+      "endDate": "2025-12-01",
+      "summary": "Supported Software Architecture, Full-Stack Web Development, and Software Performance Evaluation courses.",
+      "highlights": [
+        "Software Architecture (TA)",
+        "Full-Stack Web Development (TA)",
+        "Software Performance Evaluation (TA)"
+      ]
+    },
+    {
+      "name": "University of Benin",
+      "position": "Teaching Assistant",
+      "url": "https://www.uniben.edu/",
+      "startDate": "2018-01-01",
+      "endDate": "2019-12-01",
+      "summary": "Supported Telecommunication Principles I and Microwave Engineering courses.",
+      "highlights": [
+        "Telecommunication Principles I (TA)",
+        "Microwave Engineering (TA)"
+      ]
     }
   ],
+  "volunteer": [],
   "education": [
     {
-      "institution": "University of Zurich, Zurich, Switzerland",
-      "location": "Zurich, Switzerland",
-      "url": "https://www.uzh.ch/",
-      "area": "Software Development",
-      "studyType": "PhD",
-      "startDate": "1905-01-01",
-      "endDate": "1905-01-01",
-      "score": "10",
-      "courses": ["Theory of Relativity"]
+      "institution": "University of Calgary",
+      "location": "Calgary, AB, Canada",
+      "url": "https://www.ucalgary.ca/",
+      "area": "Electrical & Software Engineering",
+      "studyType": "MSc",
+      "startDate": "2024-01-01",
+      "endDate": "2026-03-01",
+      "score": "4.0/4.0",
+      "courses": [
+        "Data Mining & Machine Learning",
+        "Dependability and Reliability of Software Systems",
+        "Advanced Networking (6G & Beyond)",
+        "Wireless Transceiver System Design"
+      ],
+      "summary": "Thesis (tentative): Self-supervised radio representation learning for multi-task applications."
+    },
+    {
+      "institution": "University of Benin",
+      "location": "Benin City, Nigeria",
+      "url": "https://www.uniben.edu/",
+      "area": "Electrical & Electronic Engineering",
+      "studyType": "BEng",
+      "startDate": "2014-01-13",
+      "endDate": "2019-12-16",
+      "score": "4.72/5.0",
+      "courses": [
+        "Telecommunication Principles I & II", 
+        "Digital Communication", 
+        "Microwave Engineering", 
+        "Electromagnetism", 
+        "Signals and System", 
+        "Electronic Device & Circuits", 
+        "Logic Design & Digital Circuits"
+    ],
+      "summary": "Thesis: Harmonic analysis—comparison between Elson & BlueGate 2kVA inverters."
     }
   ],
   "awards": [
     {
-      "title": "Nobel Prize in Physics",
-      "date": "1921-11-01",
-      "awarder": "Royal Swedish Academy of Sciences",
-      "url": "https://www.nobelprize.org/prizes/physics/1921/einstein/biographical/",
-      "summary": "The Nobel Prizes are five separate prizes that, according to Alfred Nobel's will of 1895, are awarded to 'those who, during the preceding year, have conferred the greatest benefit to humankind.'"
+      "title": "Alberta Graduate Excellence Scholarship (AGES) — International",
+      "date": "2025-01-01",
+      "awarder": "Province of Alberta, Alberta Advanced Education",
+      "url": "https://iac01.ucalgary.ca/FGSA/Public/SpecificAward.aspx?AwardID=7344",
+      "summary": "Awarded 11k CAD for academic excellence in graduate studies."
     }
   ],
   "certificates": [
     {
-      "name": "Machine Learning",
-      "date": "2018-01-01",
-      "issuer": "Stanford University",
-      "url": "https://example.com",
-      "icon": "fa-solid fa-location-dot"
+      "name": "ALX Software Engineering Certification — Back-end",
+      "date": "2024-01-01",
+      "issuer": "ALX Africa",
+      "url": "https://drive.google.com/file/d/1BMaR0NDvmSrXmzOeGpfn5KDfggUBPAIX/view?usp=drive_link",
+      "icon": ""
     },
     {
-      "name": "Quantum Computing",
-      "date": "2018-01-01",
-      "issuer": "Stanford University",
-      "url": "https://example.com",
-      "icon": "fa-solid fa-tag"
-    },
-    {
-      "name": "Quantum Information",
-      "date": "2018-01-01",
-      "issuer": "Stanford University",
-      "url": "https://example.com",
-      "icon": "fa-solid fa-envelope"
-    },
-    {
-      "name": "Quantum Cryptography",
-      "date": "2018-01-01",
-      "issuer": "Stanford University",
-      "url": "https://example.com",
-      "icon": "fa-solid fa-hashtag"
-    },
-    {
-      "name": "Quantum Communication",
-      "date": "2018-01-01",
-      "issuer": "Stanford University",
-      "url": "https://example.com",
-      "icon": "fa-solid fa-calendar"
-    },
-    {
-      "name": "Quantum Teleportation",
-      "date": "2018-01-01",
-      "issuer": "Stanford University",
-      "url": "https://example.com",
-      "icon": "fa-solid fa-clipboard-check"
+      "name": "AWS Machine Learning Foundation",
+      "date": "2022-01-01",
+      "issuer": "AWS",
+      "url": "https://s3-us-west-2.amazonaws.com/udacity-printer/production/certificates/530964d2-5ae0-424b-84d9-3e3f91044daa.pdf",
+      "icon": ""
     }
   ],
   "publications": [
     {
-      "name": "Zur Elektrody/namik bewegter Körper",
-      "publisher": "Annalen der Physik",
-      "releaseDate": "1905-06-30",
-      "url": "https://en.wikisource.org/wiki/Translation:On_the_Electrodynamics_of_Moving_Bodies",
-      "summary": "It concerned an interpretation of the Michelson–Morley experiment and the properties of light and time. Special relativity incorporates the principle that the speed of light is the same for all inertial observers regardless of the state of motion of the source."
+      "name": "Self-supervised radio representation learning: Can we learn multiple tasks?",
+      "publisher": "IEEE ICC",
+      "releaseDate": "2025-06-01",
+      "url": "https://ieeexplore.ieee.org/abstract/document/11161144",
+      "summary": "Explores multi-task learning with self-supervised pretraining for radio I/Q data; conference paper (pp. 511–517)."
     },
     {
-      "name": "Über einen die Erzeugung und Verwandlung des Lichtes betreffenden heuristischen Gesichtspunkt",
-      "publisher": "Annalen der Physik",
-      "releaseDate": "1905-03-18",
-      "url": "https://de.wikisource.org/wiki/Über_einen_die_Erzeugung_und_Verwandlung_des_Lichtes_betreffenden_heuristischen_Gesichtspunkt",
-      "summary": "In the second paper, he applied the quantum theory to light to explain the photoelectric effect. In particular, he used the idea of light quanta (photons) to explain experimental results, but stressed the importance of the experimental results. The importance of his work on the photoelectric effect earned him the Nobel Prize in Physics in 1921."
+      "name": "Penetration Testing of GSM Network using MITM Attack",
+      "publisher": "Journal of Engineering Sciences",
+      "releaseDate": "2024-01-01",
+      "url": "https://jesaun.journals.ekb.eg/article_323883.html",
+      "summary": "Demonstration of man-in-the-middle attack on GSM network using off-the-shelf SDRs and open-source software."
     },
     {
-      "name": "Die Grundlage der allgemeinen Relativitätstheorie",
-      "publisher": "Annalen der Physik",
-      "releaseDate": "1916-03-20",
-      "url": "https://de.wikisource.org/wiki/Die_Grundlage_der_allgemeinen_Relativitätstheorie",
-      "summary": "The publication of the theory of general relativity made him internationally famous. He was professor of physics at the universities of Zurich (1909–1911) and Prague (1911–1912), before he returned to ETH Zurich (1912–1914)."
+      "name": "Cost-effective cellular network using OpenBTS & USRP B210",
+      "publisher": "NRJEES",
+      "releaseDate": "2022-01-01",
+      "url": "http://doi.org/10.5281/zenodo.6726443",
+      "summary": "Built a cheap 2G cellular network using OpenBTS and USRP B210 SDR."
     }
   ],
   "skills": [
     {
-      "name": "Physics",
-      "level": "Master",
-      "icon": "fa-solid fa-hashtag",
-      "keywords": [
-        "Quantum Mechanics",
-        "Quantum Computing",
-        "Quantum Information",
-        "Quantum Cryptography",
-        "Quantum Communication",
-        "Quantum Teleportation"
-      ]
+      "name": "Programming Languages",
+      "level": "",
+      "icon": "",
+      "keywords": ["Python", "C", "C++", "JavaScript"]
+    },
+    {
+      "name": "ML/AI",
+      "level": "",
+      "icon": "",
+      "keywords": ["PyTorch", "TensorFlow", "Keras", "Scikit-learn", "FastAI"]
+    },
+    {
+      "name": "Data & Signal Processing",
+      "level": "",
+      "icon": "",
+      "keywords": ["NumPy", "pandas", "GNU Radio", "MATLAB"]
+    },
+    {
+      "name": "MLOps / Engineering",
+      "level": "",
+      "icon": "",
+      "keywords": ["Git/GitHub", "Docker", "CMake", "Large-scale/Distributed Training"]
+    },
+    {
+      "name": "Databases",
+      "level": "",
+      "icon": "",
+      "keywords": ["MySQL", "PostgreSQL", "SQLite", "MongoDB", "Firebase"]
+    },
+    {
+      "name": "Other",
+      "level": "",
+      "icon": "",
+      "keywords": ["Embedded systems", "Academic writing", "Technical communication"]
     }
   ],
   "languages": [
     {
-      "language": "German",
-      "fluency": "Native speaker",
-      "icon": ""
-    },
-    {
       "language": "English",
-      "fluency": "Fluent",
-      "icon": ""
-    }
-  ],
-  "interests": [
-    {
-      "name": "Physics",
-      "icon": "fa-solid fa-tag",
-      "keywords": [
-        "Quantum Mechanics",
-        "Quantum Computing",
-        "Quantum Information",
-        "Quantum Cryptography",
-        "Quantum Communication",
-        "Quantum Teleportation"
-      ]
-    }
-  ],
-  "references": [
-    {
-      "name": "Professor John Doe",
-      "icon": "fa-solid fa-laptop",
-      "reference": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam condimentum, diam quis convallis euismod, arcu mi ullamcorper lorem, a vestibulum nunc magna at sem. Sed in risus ac felis varius blandit. D"
+      "fluency": "Full Professional Proficiency"
     },
     {
-      "name": "Professor John Doe",
-      "icon": "fa-solid fa-thumbtack",
-      "reference": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam condimentum, diam quis convallis euismod, arcu mi ullamcorper lorem, a vestibulum nunc magna at sem. Sed in risus ac felis varius blandit. D"
+      "language": "French",
+      "fluency": "Beginner"
     }
   ],
-  "projects": [
-    {
-      "name": "Quantum Computing",
-      "summary": "Quantum computing is the use of quantum-mechanical phenomena such as superposition and entanglement to perform computation. Computers that perform quantum computations are known as quantum computers.",
-      "highlights": ["Quantum Teleportation", "Quantum Cryptography"],
-      "startDate": "2018-01-01",
-      "endDate": "2018-01-01",
-      "url": "https://example.com"
-    }
-  ]
+  "interests": [],
+  "references": [],
+  "projects": []
 }
