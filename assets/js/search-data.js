@@ -25,7 +25,7 @@ ninja.data = [{
           },
         },{id: "nav-projects",
           title: "projects",
-          description: "A growing collection of your cool projects.",
+          description: "A growing collection of my cool projects.",
           section: "Navigation",
           handler: () => {
             window.location.href = "/projects/";
@@ -107,36 +107,31 @@ ninja.data = [{
             },},{id: "news-say-hello-wave-to-the-new-website-sparkles-smile",
           title: 'Say hello :wave: to the new website :sparkles: :smile:.',
           description: "",
-          section: "News",},{id: "projects-minimum-statistics-estimation",
-          title: 'Minimum Statistics Estimation',
-          description: "",
+          section: "News",},{id: "projects-tabsage",
+          title: 'TabSage',
+          description: "retrieval-augmented QA assistant for your browser tabs",
           section: "Projects",handler: () => {
-              window.location.href = "/projects/1_min-stats/";
-            },},{id: "projects-penetration-testing-with-off-the-shelf-sdrs",
-          title: 'Penetration Testing with off-the-shelf SDRs',
-          description: "demonstrating feasible man-in-the-middle attack on 2G GSM network",
-          section: "Projects",handler: () => {
-              window.location.href = "/projects/2_mitm-attack/";
-            },},{id: "projects-alxbot",
-          title: 'ALXBot',
-          description: "an LLM chrome extension",
-          section: "Projects",handler: () => {
-              window.location.href = "/projects/3_alxbot/";
+              window.location.href = "/projects/1_tabsage/";
             },},{id: "projects-iq2spect",
           title: 'IQ2Spect',
           description: "an I/Q to spectrogram forecasting machine learning model",
           section: "Projects",handler: () => {
-              window.location.href = "/projects/4_iq2spect/";
+              window.location.href = "/projects/2_iq2spect/";
             },},{id: "projects-spectdetect",
           title: 'SpectDetect',
           description: "a narrow and wideband signal detection machine learning model",
           section: "Projects",handler: () => {
-              window.location.href = "/projects/5_spectdetect/";
-            },},{id: "projects-radiossl",
-          title: 'RadioSSL',
-          description: "demonstrating multi-task learning capabilities with self-supervised radio representaiton learning",
+              window.location.href = "/projects/3_spectdetect/";
+            },},{id: "projects-iqssl",
+          title: 'IQSSL',
+          description: "demonstrating multi-task learning capabilities with self-supervised learning",
           section: "Projects",handler: () => {
-              window.location.href = "/projects/6_radiossl/";
+              window.location.href = "/projects/4_iqssl/";
+            },},{id: "projects-storyverse",
+          title: 'StoryVerse',
+          description: "a multi-agent system",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/5_storyverse/";
             },},{
         id: 'social-email',
         title: 'email',
