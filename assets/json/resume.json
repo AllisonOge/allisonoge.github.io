@@ -1,12 +1,12 @@
 {
   "basics": {
     "name": "Ogechukwu Allison Kanu",
-    "label": "MSc Researcher — Machine Learning for Wireless/Signal Data",
+    "label": "AI Developer and Researcher",
     "image": "",
     "email": "ogechukwukanu@gmail.com",
     "phone": "",
     "url": "https://allisonoge.github.io",
-    "summary": "MSc researcher specializing in machine learning for wireless/signal data with hands-on experience designing, training, evaluating, and deploying ML pipelines. Proven record training and shipping PyTorch models, migrating/maintaining production-grade codebases, and collaborating across academia and industry. Strong software engineering foundation (Python, C/C++, JavaScript), experiment tracking, documentation, and code reviews—plus practical DevOps exposure (Docker, CI/CD scripting). Published at IEEE ICC 2025.",
+    "summary": "AI Developer and Researcher with 2+ years hands-on experience in representation learning and signal intelligence. Proven record training and shipping PyTorch models, migrating and maintaining production-grade codebases, and collaborating across academia and industry (Qoherent Inc., University of Calgary/Benin). Strong software engineering foundation (Python, C/C++, JavaScript), experiment tracking, documentation, and code reviews, plus practical DevOps exposure (Docker, CI/CD scripting). Also build LLM-based agent systems in side projects (tool use, planning, RAG, evaluation)",
     "location": {
       "address": "",
       "postalCode": "",
@@ -37,11 +37,13 @@
       "url": "https://www.ucalgary.ca/",
       "startDate": "2024-01-01",
       "endDate": "",
-      "summary": "Researching mixed pretraining for self-supervised learning on I/Q samples for multi-task downstreams. Implemented scalable training/evaluation loops and ablations; maintained artifacts and documentation for reproducibility.",
+      "summary": "Researching multi-task wireless foundation models trained using self-supervised learning on I/Q samples and federated pretraining. Implemented scalable training/evaluation loops and ablations; maintained artifacts and documentation for reproducibility.",
       "highlights": [
-        "Mixed pretraining for SSL on I/Q data",
-        "Scalable training/evaluation loops",
-        "Ablations and reproducibility artifacts"
+        "Searched, reviewed, and summarized academic literature to support research projects.",
+        "Implemented scalable training/evaluation loops and ablations; maintained artifacts and documentation for reproducibility.",
+        "Prepared demo notebooks for research projects.",
+        "Wrote and published a conference article and journal paper.",
+        "Presented findings and contributions with clear communication."
       ]
     },
     {
@@ -50,11 +52,13 @@
       "url": "https://www.alxafrica.com/",
       "startDate": "2023-01-01",
       "endDate": "2023-12-01",
-      "summary": "Built projects in C, Python, JavaScript; delivered full-stack web apps and REST APIs. Implemented DevOps pipelines with Puppet & Bash to streamline deployments. Practiced DSA and problem-solving for production readiness.",
+      "summary": "Completed a software engineering internship focused on full-stack application development, backend APIs, and deployment automation using C, Python, and JavaScript while strengthening problem-solving and data structures fundamentals.",
       "highlights": [
-        "Full-stack apps & REST APIs",
-        "Puppet/Bash deployment pipelines",
-        "DSA practice for production readiness"
+        "Full-stack web apps with React/TypeScript, Flask, REST APIs, and SQL.",
+        "NGINX setup with HTTPS, reverse proxy routing, and load balancing.",
+        "Deployment automation with Puppet and Bash.",
+        "C utilities, file I/O, bit manipulation, and core data structures.",
+        "Git-based version control and collaboration."
       ]
     },
     {
@@ -126,7 +130,7 @@
         "Advanced Networking (6G & Beyond)",
         "Wireless Transceiver System Design"
       ],
-      "summary": "Thesis (tentative): Self-supervised radio representation learning for multi-task applications."
+      "summary": "Thesis: Toward Multi-Task Wireless Foundation Models with Self-Supervised Learning and Federated Pretraining"
     },
     {
       "institution": "University of Benin",
@@ -214,25 +218,31 @@
       "name": "Data & Signal Processing",
       "level": "",
       "icon": "",
-      "keywords": ["NumPy", "pandas", "GNU Radio", "MATLAB"]
+      "keywords": ["NumPy", "Pandas", "GNU Radio", "MATLAB"]
     },
     {
-      "name": "MLOps / Engineering",
+      "name": "DevOps/CI/CD",
       "level": "",
       "icon": "",
-      "keywords": ["Git/GitHub", "Docker", "CMake", "Large-scale/Distributed Training"]
+      "keywords": ["Git/GitHub", "Docker", "Large-scale/Distributed GPU Training"]
+    },
+    {
+      "name": "Libraries/Frameworks",
+      "level": "",
+      "icon": "",
+      "keywords": ["LangChain", "Google ADK", "Flask", "FastAPI"]
     },
     {
       "name": "Databases",
       "level": "",
       "icon": "",
-      "keywords": ["MySQL", "PostgreSQL", "SQLite", "MongoDB", "Firebase"]
+      "keywords": ["MySQL", "PostgreSQL", "SQLite", "MongoDB"]
     },
     {
-      "name": "Other",
+      "name": "Others",
       "level": "",
       "icon": "",
-      "keywords": ["Embedded systems", "Academic writing", "Technical communication"]
+      "keywords": ["Embedded systems", "Academic writing", "Clear communication", "Presentation"]
     }
   ],
   "languages": [

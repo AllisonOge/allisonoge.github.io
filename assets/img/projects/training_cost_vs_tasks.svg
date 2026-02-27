@@ -1,0 +1,73 @@
+<svg xmlns='http://www.w3.org/2000/svg' width='720' height='480' viewBox='0 0 720 480'>
+<rect width='100%' height='100%' fill='white' />
+<line x1='70' y1='410' x2='650' y2='410' stroke='#333' stroke-width='1' />
+<line x1='70' y1='70' x2='70' y2='410' stroke='#333' stroke-width='1' />
+<line x1='70.0' y1='410' x2='70.0' y2='416' stroke='#333' stroke-width='1' />
+<text x='70.0' y='432' font-size='12' text-anchor='middle' fill='#333'>1</text>
+<line x1='134.44444444444446' y1='410' x2='134.44444444444446' y2='416' stroke='#333' stroke-width='1' />
+<text x='134.44444444444446' y='432' font-size='12' text-anchor='middle' fill='#333'>2</text>
+<line x1='198.88888888888889' y1='410' x2='198.88888888888889' y2='416' stroke='#333' stroke-width='1' />
+<text x='198.88888888888889' y='432' font-size='12' text-anchor='middle' fill='#333'>3</text>
+<line x1='263.3333333333333' y1='410' x2='263.3333333333333' y2='416' stroke='#333' stroke-width='1' />
+<text x='263.3333333333333' y='432' font-size='12' text-anchor='middle' fill='#333'>4</text>
+<line x1='327.77777777777777' y1='410' x2='327.77777777777777' y2='416' stroke='#333' stroke-width='1' />
+<text x='327.77777777777777' y='432' font-size='12' text-anchor='middle' fill='#333'>5</text>
+<line x1='392.22222222222223' y1='410' x2='392.22222222222223' y2='416' stroke='#333' stroke-width='1' />
+<text x='392.22222222222223' y='432' font-size='12' text-anchor='middle' fill='#333'>6</text>
+<line x1='456.66666666666663' y1='410' x2='456.66666666666663' y2='416' stroke='#333' stroke-width='1' />
+<text x='456.66666666666663' y='432' font-size='12' text-anchor='middle' fill='#333'>7</text>
+<line x1='521.1111111111111' y1='410' x2='521.1111111111111' y2='416' stroke='#333' stroke-width='1' />
+<text x='521.1111111111111' y='432' font-size='12' text-anchor='middle' fill='#333'>8</text>
+<line x1='585.5555555555555' y1='410' x2='585.5555555555555' y2='416' stroke='#333' stroke-width='1' />
+<text x='585.5555555555555' y='432' font-size='12' text-anchor='middle' fill='#333'>9</text>
+<line x1='650.0' y1='410' x2='650.0' y2='416' stroke='#333' stroke-width='1' />
+<text x='650.0' y='432' font-size='12' text-anchor='middle' fill='#333'>10</text>
+<line x1='64' y1='410.0' x2='70' y2='410.0' stroke='#333' stroke-width='1' />
+<line x1='70' y1='410.0' x2='650' y2='410.0' stroke='#ddd' stroke-width='1' />
+<text x='60' y='414.0' font-size='12' text-anchor='end' fill='#333'>0.0</text>
+<line x1='64' y1='342.0' x2='70' y2='342.0' stroke='#333' stroke-width='1' />
+<line x1='70' y1='342.0' x2='650' y2='342.0' stroke='#ddd' stroke-width='1' />
+<text x='60' y='346.0' font-size='12' text-anchor='end' fill='#333'>3.0</text>
+<line x1='64' y1='274.0' x2='70' y2='274.0' stroke='#333' stroke-width='1' />
+<line x1='70' y1='274.0' x2='650' y2='274.0' stroke='#ddd' stroke-width='1' />
+<text x='60' y='278.0' font-size='12' text-anchor='end' fill='#333'>6.0</text>
+<line x1='64' y1='206.0' x2='70' y2='206.0' stroke='#333' stroke-width='1' />
+<line x1='70' y1='206.0' x2='650' y2='206.0' stroke='#ddd' stroke-width='1' />
+<text x='60' y='210.0' font-size='12' text-anchor='end' fill='#333'>9.0</text>
+<line x1='64' y1='138.0' x2='70' y2='138.0' stroke='#333' stroke-width='1' />
+<line x1='70' y1='138.0' x2='650' y2='138.0' stroke='#ddd' stroke-width='1' />
+<text x='60' y='142.0' font-size='12' text-anchor='end' fill='#333'>12.0</text>
+<line x1='64' y1='70.0' x2='70' y2='70.0' stroke='#333' stroke-width='1' />
+<line x1='70' y1='70.0' x2='650' y2='70.0' stroke='#ddd' stroke-width='1' />
+<text x='60' y='74.0' font-size='12' text-anchor='end' fill='#333'>15.0</text>
+<text x='360.0' y='460' font-size='14' text-anchor='middle' fill='#111'>Number of tasks (N)</text>
+<text x='20' y='240.0' font-size='14' text-anchor='middle' fill='#111' transform='rotate(-90 20 240.0)'>Training hours</text>
+<text x='360.0' y='30' font-size='16' text-anchor='middle' fill='#111'>Training Cost vs. Number of Tasks</text>
+<path d='M 70.00,315.38 L 134.44,311.28 L 198.89,307.19 L 263.33,303.09 L 327.78,299.00 L 392.22,294.90 L 456.67,290.80 L 521.11,286.71 L 585.56,282.61 L 650.00,278.52' fill='none' stroke='#1f77b4' stroke-width='2' />
+<path d='M 70.00,379.09 L 134.44,348.18 L 198.89,317.27 L 263.33,286.36 L 327.78,255.45 L 392.22,224.55 L 456.67,193.64 L 521.11,162.73 L 585.56,131.82 L 650.00,100.91' fill='none' stroke='#ff7f0e' stroke-width='2' />
+<circle cx='70.00' cy='315.38' r='3' fill='#1f77b4' />
+<circle cx='134.44' cy='311.28' r='3' fill='#1f77b4' />
+<circle cx='198.89' cy='307.19' r='3' fill='#1f77b4' />
+<circle cx='263.33' cy='303.09' r='3' fill='#1f77b4' />
+<circle cx='327.78' cy='299.00' r='3' fill='#1f77b4' />
+<circle cx='392.22' cy='294.90' r='3' fill='#1f77b4' />
+<circle cx='456.67' cy='290.80' r='3' fill='#1f77b4' />
+<circle cx='521.11' cy='286.71' r='3' fill='#1f77b4' />
+<circle cx='585.56' cy='282.61' r='3' fill='#1f77b4' />
+<circle cx='650.00' cy='278.52' r='3' fill='#1f77b4' />
+<circle cx='70.00' cy='379.09' r='3' fill='#ff7f0e' />
+<circle cx='134.44' cy='348.18' r='3' fill='#ff7f0e' />
+<circle cx='198.89' cy='317.27' r='3' fill='#ff7f0e' />
+<circle cx='263.33' cy='286.36' r='3' fill='#ff7f0e' />
+<circle cx='327.78' cy='255.45' r='3' fill='#ff7f0e' />
+<circle cx='392.22' cy='224.55' r='3' fill='#ff7f0e' />
+<circle cx='456.67' cy='193.64' r='3' fill='#ff7f0e' />
+<circle cx='521.11' cy='162.73' r='3' fill='#ff7f0e' />
+<circle cx='585.56' cy='131.82' r='3' fill='#ff7f0e' />
+<circle cx='650.00' cy='100.91' r='3' fill='#ff7f0e' />
+<rect x='430' y='80' width='210' height='48' fill='white' stroke='#ccc' />
+<line x1='440' y1='96' x2='470' y2='96' stroke='#1f77b4' stroke-width='2' />
+<text x='480' y='100' font-size='12' fill='#111'>Shared encoder + adaptation</text>
+<line x1='440' y1='114' x2='470' y2='114' stroke='#ff7f0e' stroke-width='2' />
+<text x='480' y='118' font-size='12' fill='#111'>Fully supervised (avg)</text>
+</svg>

@@ -1,7 +1,7 @@
 ---
 layout: page
-title: ALXBot
-description: an LLM chrome extension
+title: StoryVerse
+description: a multi-agent system
 img:
 importance: 1
 category: fun

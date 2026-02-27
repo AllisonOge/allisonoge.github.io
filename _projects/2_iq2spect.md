@@ -5,7 +5,7 @@ description: an I/Q to spectrogram forecasting machine learning model
 img: assets/img/projects/spectrogram_maps.png
 importance: 2
 category: work
-disqus_comments: true
+disqus_comments: false
 ---
 
 Forecasting models in the radio domain play a huge role in spectrum resource management, where we must squeeze more performance out of finite spectrum for a rapidly growing device base. As of Q2 2025 there were about 2.6 billion 5G subscriptions worldwide, with two-thirds of all mobile subscriptions expected to be 5G by 2030—a shift that is also driving mobile data traffic up ~19% year-over-year to ~180 EB/month as of Q2 2025 [[ericson-5g][ericson-5g]{:target="_blank"}, [ericson-net-traffic][ericson-net-traffic]{:target="_blank"}].
