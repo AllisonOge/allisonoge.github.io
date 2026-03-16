@@ -26,7 +26,6 @@
       "summary": "Designed, trained, tested, and iterated I/Q→spectrogram forecasting and signal localization/classification models (narrow & wideband). Refactored the training stack from FastAI to PyTorch; improved maintainability and reviewability. Built a self-supervised multi-task learning pipeline that produced an IEEE ICC 2025 publication. Collaborated closely with the team, tracked experiments, communicated results, and optimized training/evaluation throughput.",
       "highlights": [
         "Refactored ML stack FastAI → PyTorch",
-        "Self-supervised multi-task pipeline (ICC 2025)",
         "Throughput and accuracy optimization",
         "Experiment tracking and reporting"
       ]
@@ -160,6 +159,13 @@
       "awarder": "Province of Alberta, Alberta Advanced Education",
       "url": "https://iac01.ucalgary.ca/FGSA/Public/SpecificAward.aspx?AwardID=7344",
       "summary": "Awarded 11k CAD for academic excellence in graduate studies."
+    },
+    {
+      "title": "Mitacs-Accelerate Graduate Research Internship Program",
+      "date": "2024-01-01",
+      "awarder": "Mitacs",
+      "url": "https://www.mitacs.ca/our-programs/accelerate/",
+      "summary": "Awarded 30k CAD."
     }
   ],
   "certificates": [

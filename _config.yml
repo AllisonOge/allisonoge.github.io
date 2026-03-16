@@ -229,7 +229,6 @@ exclude:
   - _posts/2024-05-01-tabs.md
   - _posts/2024-12-04-photo-gallery.md
   - _posts/2025-03-26-plotly.md
-  - _news/announcement_2.md
   - _news/announcement_3.md
 keep_files:
   - CNAME
