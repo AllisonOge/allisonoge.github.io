@@ -44,7 +44,18 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/cv/";
           },
-        },{id: "post-exploring-decision-boundaries-in-multi-layer-perceptron-mlp",
+        },{id: "post-contrastive-learning-methods-with-negative-examples",
+        
+          title: "Contrastive Learning methods with Negative Examples",
+        
+        description: "",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/blog/2026/moco-vs-simclr/";
+          
+        },
+      },{id: "post-exploring-decision-boundaries-in-multi-layer-perceptron-mlp",
         
           title: "Exploring Decision Boundaries in Multi-Layer Perceptron (MLP)",
         
@@ -106,6 +117,9 @@ ninja.data = [{
               window.location.href = "/books/the_godfather/";
             },},{id: "news-say-hello-wave-to-the-new-website-sparkles-smile",
           title: 'Say hello :wave: to the new website :sparkles: :smile:.',
+          description: "",
+          section: "News",},{id: "news-new-sparkles-exciting-post-rocket",
+          title: 'New :sparkles: exciting post :rocket:',
           description: "",
           section: "News",},{id: "projects-tabsage",
           title: 'TabSage',
